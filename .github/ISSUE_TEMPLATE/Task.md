@@ -1,5 +1,5 @@
 ---
-name: New Task
+name: Task
 about: Create a programming task that is not directly related to stakeholders.
 title: 'A short summary'
 labels: 'Task'
