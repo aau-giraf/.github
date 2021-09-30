@@ -1,4 +1,4 @@
-#Giraf project
+# Giraf project
 
 Giraf is a tablet environment aimed at autistic children with little or no verbal communication. It can be used for daily schedules, games and education.
 
