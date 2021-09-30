@@ -1,13 +1,5 @@
-# GIRAF project
+#Giraf project
 
+Giraf is a tablet environment aimed at autistic children with little or no verbal communication. It can be used for daily schedules, games and education.
 
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://guides.github.com/features/mastering-markdown/)
--->
+The Giraf system has been developed by students at Aalborg University as a semester project on the software engineering education from the spring of 2011. The system has been created in close cooperation with Børnehaven Birken (Kindergarten), Egebakken (School) and Center for Autism and ADHD at Aalborg Municipality. The system will be developed continuously and will hopefully be ready for use within the next years.
