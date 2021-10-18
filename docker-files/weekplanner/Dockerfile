@@ -19,7 +19,8 @@ WORKDIR /home/developer
 RUN git clone https://github.com/aau-giraf/weekplanner.git
 
 # Should be deleted later on
-COPY ./weekplanner/setup_win.sh /home/developer/weekplanner
+COPY ./weekplanner/setup.sh /home/developer/weekplanner
+COPY ./weekplanner/run.sh /home/developer/weekplanner
 
 # Move the working directory to the correct location
 WORKDIR /home/developer/weekplanner
