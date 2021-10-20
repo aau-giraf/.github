@@ -16,8 +16,12 @@ The system will be developed continuously and it will hopefully be ready for use
 
 - [Project Architecture](../wiki/about/about.md)
 - [GitHub](../wiki/about/github.md)
-- [Setup guide](../wiki/setup_guide/env_setup.md)
+- [Setup guide](../wiki/setup-guide/env_setup.md)
 - [Server info](../wiki/server/server_setup.md)
+
+## Design guide
+
+The further design of the application should follow the design described in the [General guidelines](../wiki/design_guide/general.md), where you will also be able to find the prototypes from the last semester.
 
 ## Legal documents
 
