@@ -14,17 +14,17 @@ The system will be developed continuously and it will hopefully be ready for use
 
 ## Development documentation
 
-- [Project Architecture](../wiki/about/about.md)
-- [GitHub](../wiki/about/github.md)
-- [Setup guide](../wiki/setup-guide/env_setup.md)
-- [Server info](../wiki/server/server_setup.md)
+- [Project Architecture](https://github.com/aau-giraf/.github/blob/main/wiki/about/about.md)
+- [GitHub](https://github.com/aau-giraf/.github/blob/main/wiki/about/github.md)
+- [Setup guide](https://github.com/aau-giraf/.github/blob/main/wiki/setup-guide/env_setup.md)
+- [Server info](https://github.com/aau-giraf/.github/blob/main/wiki/server/server_setup.md)
 
 ## Design guide
 
-The further design of the application should follow the design described in the [General guidelines](../wiki/design_guide/general.md), where you will also be able to find the prototypes from the last semester.
+The further design of the application should follow the design described in the [General guidelines](https://github.com/aau-giraf/.github/blob/main/wiki/design_guide/general.md), where you will also be able to find the prototypes from the last semester.
 
 ## Legal documents
 
-- [Licenses for GIRAF](../wiki/legal/licenses.md)
-- [Privacy policy](../wiki/legal/privacy_licenses.md)
-- [Risk assessment](../wiki/legal/risk_assessment.md)
+- [Licenses for GIRAF](https://github.com/aau-giraf/.github/blob/main/wiki/legal/licenses.md)
+- [Privacy policy](https://github.com/aau-giraf/.github/blob/main/wiki/legal/privacy_licenses.md)
+- [Risk assessment](https://github.com/aau-giraf/.github/blob/main/wiki/legal/risk_assessment.md)
