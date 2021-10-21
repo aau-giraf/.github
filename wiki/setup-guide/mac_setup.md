@@ -14,12 +14,13 @@ Before setting up the project you will need to have installed the following IDE'
 After installing the IDE, please make sure to add extensions for Flutter in the Flutter IDE. After setting up the IDE's you need to install the following:
 
 1. Java JDK \
-    Install the Java JDK from here https://jdk.java.net/java-se-ri/11, after the installation you need to add Java to your environment variables. In the environment variables you need to add:
+    Install the Java JDK from here https://jdk.java.net/java-se-ri/11 or using homebrew/brew by running: `brew install java11` \
+    After the installation you need to add Java to your environment variables. In the environment variables you need to add:
     - A new variable called JAVA_HOME, which should point to your JDK installation directory
     - A new path to your PATH variable, which should point to the bin folder of your JDK installation
 
-2. Android SDK \
-    Install the newest Android SDK, it can either be installed through Android Studio's SDK manager or by installing the commandline tools from here: https://developer.android.com/studio, and then running the sdkmanager. \
+2. Android SDK  Slet dette!!! \
+    Install the newest Android SDK, it can either be installed through Android Studio's SDK manager or by running this command: `brew install android-sdk`. \
     To ease the use of Android please add the following to your environment variables:
     - A new variable called ANDROID_HOME, which should poit to your Android installation directory
     - A new path to your PATH variable, which should point to the sdk/platform-tools folder of your Android installation
@@ -37,7 +38,7 @@ After installing the IDE, please make sure to add extensions for Flutter in the 
 
 5. Install MySQL \
     Install MySQL Server **8.0** from this link: https://dev.mysql.com/downloads/mysql/ \
-    When installing/setting up set the root user's password to *password* \
+    When installing/setting up set the root user's password to *password* 
     > After the installation you can choose to add your own user if wanted
 
 ## Weekplaner repository

@@ -6,7 +6,7 @@ Before setting up the project you will need to have installed the following IDE'
 
 - Flutter IDE \
     *For Flutter you can currently only use Android Studio or VS Code* \
-    If you do not wanna deal with manually configuring the emulator and so on, then choose Android Studio. \
+    If you do not wanna deal with manually configuring the emulator and so on, then choose Android Studio.
 
 - C# IDE \
     *For C# you can use either Visual Studio, JetBrains Rider or VS Code*
@@ -32,7 +32,7 @@ After installing the IDE, please make sure to add extensions for Flutter in the 
 
 5. Install MySQL \
     Install MySQL Server **8.0** from this link: https://dev.mysql.com/downloads/mysql/ \
-    When installing/setting up set the root user's password to *password* \
+    When installing/setting up set the root user's password to *password* 
     > After the installation you can choose to add your own user if wanted
 
 ## Weekplaner repository

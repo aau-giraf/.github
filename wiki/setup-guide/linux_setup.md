@@ -14,21 +14,27 @@ Before setting up the project you will need to have installed the following IDE'
 After installing the IDE, please make sure to add extensions for Flutter in the Flutter IDE. After setting up the IDE's you need to install the following:
 
 1. Java JDK \
-    Install the Java JDK from here https://jdk.java.net/java-se-ri/11, after the installation you need to add Java to your environment variables. In the environment variables you need to add:
+    Install the Java JDK from here https://jdk.java.net/java-se-ri/11 or by running this command: `sudo apt-get install openjdk-11-jdk`, after the installation you need to add Java to your environment variables. In the environment variables you need to add:
     - A new variable called JAVA_HOME, which should point to your JDK installation directory
     - A new path to your PATH variable, which should point to the bin folder of your JDK installation
 
 2. Android SDK \
-    Install the newest Android SDK, it can either be installed through Android Studio's SDK manager or by installing the commandline tools from here: https://developer.android.com/studio, and then running the sdkmanager. \
-    To ease the use of Android please add the following to your environment variables:
-    - A new variable called ANDROID_HOME, which should poit to your Android installation directory
-    - A new path to your PATH variable, which should point to the sdk/platform-tools folder of your Android installation
+    Install the newest Android SDK, it can either be installed through Android Studio's SDK manager. To ease the use of Android please add the following to your environment variables:
+    - A new variable called ANDROID_HOME, which should point to your Android installation directory
+    - A new path to your PATH variable, which should point to the /platform-tools and the /cmdline-tools/bin folder of your Android installation
 
 3. Flutter Framework\
     Install Flutter **2.0.5** using the steps described here: https://flutter.dev/docs/get-started/install, where the **2.0.5** version of Flutter can be found here https://flutter.dev/docs/development/tools/sdk/releases
 
 4. Install .Net Core \
-    Install dotnet **3.1** from this link: https://dotnet.microsoft.com/download/dotnet/3.1
+    Install dotnet **3.1** from this link: https://dotnet.microsoft.com/download/dotnet/3.1, or you can install it by using these commands: \
+    ```
+    sudo wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb
+    sudo dpkg -i packages-microsoft-prod.deb 
+    sudo apt update 
+    sudo apt install apt-transport-https 
+    sudo apt install dotnet-sdk-3.1 
+    ```
 
 5. Install additional libraries \
     Use the following command to install needed libraries for dotnet: `apt-get -y libc6-dev libgdiplus`
