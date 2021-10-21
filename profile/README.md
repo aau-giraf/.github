@@ -14,7 +14,7 @@ The system will be developed continuously and it will hopefully be ready for use
 
 ## Development documentation
 
-- [Project Architecture](./wiki/about/about.md)
+- [Project Architecture](../wiki/about/about.md)
 - [GitHub](../wiki/about/github.md)
 - [Setup guide](../wiki/setup-guide/env_setup.md)
 - [Server info](../wiki/server/server_setup.md)
