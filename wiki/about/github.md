@@ -28,3 +28,4 @@ In order to ease the assignment of pull-requests it is possible to use the Githu
 
 ## Branching strategy
 The repos *weekplanner, api_client and web-api* are using the scaled Trunk-Based branching strategy, where the flow is as shown on the picture below.
+![Trunk-based](images/trunk-based.png)
