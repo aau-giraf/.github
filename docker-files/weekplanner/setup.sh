@@ -12,10 +12,8 @@ flutter doctor
 flutter pub get
 
 # Setup the android emulator
-sdkmanager "system-images;android-28;google_apis_playstore;x86_64" "build-tools;28.0.3" "platforms;android-28" --sdk_root="$ANDROID_SDK_ROOT"
-sdkmanager "platform-tools" --sdk_root="$ANDROID_SDK_ROOT"
+sdkmanager "system-images;android-28;google_apis_playstore;x86_64" "build-tools;28.0.3" "platforms;android-28"
+sdkmanager "platform-tools"
 sdkmanager --licenses
 
-adb --version
-adb kill-server
-adb devices
+avdmanager create avd -n weekplanner-avd --abi google_apis/x86_64 -k "system-images;android-28;google_apis;x86_64" --device "pixel_c"
