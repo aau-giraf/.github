@@ -25,3 +25,6 @@ Where you can keep track of what is happening across the different groups in the
 ### Handeling Pull-Requests
 In order to ease the assignment of pull-requests it is possible to use the Github bot in the repository **Input name here**, which will automatically assign people to each pull-request, instead of having to do it manually.
 **More info of setup here**
+
+## Branching strategy
+The repos *weekplanner, api_client and web-api* are using the scaled Trunk-Based branching strategy, where the flow is as shown on the picture below.
