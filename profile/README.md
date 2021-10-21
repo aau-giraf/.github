@@ -1,4 +1,4 @@
-# GIRAF - An app for autistic children
+# GIRAF - Graphical Interface Resource for Autistic Folks
 
 This is the GitHub organization hosting the different repositories for the applications in GIRAF.
 
