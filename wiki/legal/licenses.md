@@ -1,6 +1,6 @@
 # Licenses
 
-In this section of the Wiki you will find the licenses used to build the applications
+Below, you can see which licenses are used to build the applications
 in the GIRAF platform.
 
 ## Pictogram Licenses
