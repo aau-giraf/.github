@@ -20,6 +20,7 @@ It is possible to control all of the project management through GitHub, where yo
 - Product Backlog
 - Server admin
 - ...
+
 Where you can keep track of what is happening across the different groups in the project. Al though please be advised that GitHubs issue management is rater limited in its capabilities, so it can be a good idea for the groups to use a more advanced tool within their own groups.
 
 ### Handeling Pull-Requests
