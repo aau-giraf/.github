@@ -31,3 +31,11 @@ In order to ease the assignment of pull-requests it is possible to use the Githu
 The repos *weekplanner, api_client and web-api* are using the scaled Trunk-Based branching strategy, where the flow is as shown on the picture below.
 
 ![Trunk-based](images/trunk-based.png)
+
+## Templates
+There have been created some templates for issues and pull-requests, which are located in the *.github*-folder, and they are shared across all of the repositories in the GIRAF organization. The templates are written in markdown, where a basic syntax guide can be found here: [Github markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). If you wish to either edit or create new templates, you can add or edit the templates in the *.github*-folder in this repository.
+
+There is currently one PR template and the following issue templates:
+- User Story
+- Task
+- Bug-fix
