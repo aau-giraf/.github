@@ -10,5 +10,5 @@ This section contains information about and how to work with the servers in the 
   - Information about the Docker setup for the GIRAF project.
 - [MySQL](./mysql_access.md)
   - Information on how to access the MySQL database.
-- [Server-Setup](./server_view.md)
-  - Information on what to do to gain access to the giraf servers.
+- [Server-View](./server_view.md)
+  - Information on what to do to view the giraf servers.
