@@ -78,13 +78,9 @@ After installing the IDE, please make sure to add extensions for Flutter in the 
 
 ## Web-api repository
 1. Clone the git repository: https://github.com/aau-giraf/web-api.git
-2. Add development environment settings
-    - Navigate to the GirafRest folder, and copy the file *appsettings.template.json* 
-    - Name the new file *appsettings.Development.json* 
-    - Make the following changes to the new file:
-        - Change the DefaultConnection string, where server=localhost, port=3306, userid="theUserYouSpecifiedOrRoot", password="thePasswordForTheSpecificUser", database=giraf
-        - Change Jwt.JwtKey on line 24 to a random string of 40 or more character
-        - Change Jwt.JwtIssuer on line 25 to "Aalborg University"
+2. Check development environment settings
+    - Navigate to the GirafRest folder, and find the file *appsettings.Development.json* 
+    - Verify that the *userId* and *password* matches the credentials specified for your mysql server
 3. Open a terminal at the location of the GirafRest folder, and run the following commands:
     - `dotnet tool install --global dotnet-ef`
     - `dotnet restore`
