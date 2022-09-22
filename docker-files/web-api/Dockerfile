@@ -8,7 +8,7 @@ USER developer
 WORKDIR /home/developer
 
 # Install the necessary SDK's and so on needed for the application
-FROM mcr.microsoft.com/dotnet//sdk:6.0 
+FROM mcr.microsoft.com/dotnet/sdk:6.0 
 ENV PATH="${PATH}:/root/.dotnet/tools"
 
 # Clone the web-api repository from github
