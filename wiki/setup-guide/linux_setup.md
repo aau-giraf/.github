@@ -26,14 +26,14 @@ After installing the IDE, please make sure to add extensions for Flutter in the 
 3. Flutter Framework\
     Install Flutter **2.0.5** using the steps described here: https://flutter.dev/docs/get-started/install, where the **2.0.5** version of Flutter can be found here https://flutter.dev/docs/development/tools/sdk/releases
 
-4. Install .Net Core \
-    Install dotnet **3.1** from this link: https://dotnet.microsoft.com/download/dotnet/3.1, or you can install it by using these commands: \
+4. Install .Net \
+    Install dotnet **6.0** from this link: https://dotnet.microsoft.com/en-us/download/dotnet/6.0, or you can install it by using these commands: \
     ```
     sudo wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb
     sudo dpkg -i packages-microsoft-prod.deb 
     sudo apt update 
     sudo apt install apt-transport-https 
-    sudo apt install dotnet-sdk-3.1 
+    sudo apt install dotnet-sdk-6.0 
     ```
 
 5. Install additional libraries \
