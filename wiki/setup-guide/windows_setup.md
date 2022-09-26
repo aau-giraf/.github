@@ -27,8 +27,8 @@ After installing the IDE, please make sure to add extensions for Flutter in the 
 3. Flutter Framework\
     Install Flutter **2.0.5** using the steps described here: https://flutter.dev/docs/get-started/install, where the **2.0.5** version of Flutter can be found here https://flutter.dev/docs/development/tools/sdk/releases
 
-4. Install .Net Core \
-    Install dotnet **3.1** from this link: https://dotnet.microsoft.com/download/dotnet/3.1
+4. Install .Net \
+    Install dotnet **6.0** from this link: https://dotnet.microsoft.com/download/dotnet/6.0
 
 5. Install MySQL \
     Install MySQL Server **8.0** from this link: https://dev.mysql.com/downloads/mysql/ \

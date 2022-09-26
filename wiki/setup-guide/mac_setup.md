@@ -34,8 +34,8 @@ After installing the IDE, please make sure to add extensions for Flutter in the 
 4. Cocoapods \
     Install cocoapods using this command: `sudo gem install cocoapods`
 
-4. Install .Net Core \
-    Install dotnet **3.1** from this link: https://dotnet.microsoft.com/download/dotnet/3.1, if not done automatically then add the .dotnet/tools to PATH.
+4. Install .Net \
+    Install dotnet **6.0** from this link: https://dotnet.microsoft.com/en-us/download/dotnet/6.0, if not done automatically then add the .dotnet/tools to your PATH.
 
 5. Install additional libraries \
     Use the following commands to install needed libraries for dotnet: 
