@@ -37,8 +37,8 @@
 
 ## Making sure everything works
 1. Run the weekplanner application on your emulator
-2. Login using the default credentials 
-2.1 Username: `guardian-dev`
-2.2 Password: `password`
+2. Login using the default credentials
+  Username: `guardian-dev`
+  Password: `password`
 
 If you successfully log in and see output in the Web-API console window, then you are successfully running everything locally
