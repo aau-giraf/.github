@@ -44,7 +44,7 @@ If any of the downloads fail, just click "Try Again"
 
 If you successfully log in and see output in the Web-API console window, then you are successfully running everything locally
 
-## Updating the database when changes are made to the Web-API
+## Updating the database when changes are made to the Web-API without migrations
 1. Drop the `giraf` database in the MySQL server
 ![updatedb1](https://user-images.githubusercontent.com/9339576/205662140-c550d8f7-1015-4e81-b27c-7e22e59677cb.png)
 ![updatedb2](https://user-images.githubusercontent.com/9339576/205662200-39e7f0a7-2ea3-40a1-b6b6-278060d812ea.png)
