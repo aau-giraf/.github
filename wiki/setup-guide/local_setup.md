@@ -39,8 +39,8 @@ If any of the downloads fail, just click "Try Again"
 ## Making sure everything works
 1. Run the weekplanner application on your emulator
 2. Login using the default credentials
-  Username: `guardian-dev`
-  Password: `password`
+* Username: `guardian-dev`
+* Password: `password`
 
 If you successfully log in and see output in the Web-API console window, then you are successfully running everything locally
 
@@ -48,4 +48,4 @@ If you successfully log in and see output in the Web-API console window, then yo
 1. Drop the `giraf` database in the MySQL server
 ![updatedb1](https://user-images.githubusercontent.com/9339576/205662140-c550d8f7-1015-4e81-b27c-7e22e59677cb.png)
 ![updatedb2](https://user-images.githubusercontent.com/9339576/205662200-39e7f0a7-2ea3-40a1-b6b6-278060d812ea.png)
-2. Rebuild the database
+2. [Rebuild the database](https://github.com/aau-giraf/.github/blob/main/wiki/setup-guide/local_setup.md#building-the-database-for-the-web-api-and-running-it-with-sample-data)
