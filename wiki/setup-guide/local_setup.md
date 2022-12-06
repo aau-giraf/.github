@@ -7,6 +7,7 @@
 ![mysql install 4](https://user-images.githubusercontent.com/9339576/205648786-ce1f657f-2f2f-4605-a8d6-f9f9a864d2ce.png)
 ![mysql install 5](https://user-images.githubusercontent.com/9339576/205648824-9c58bc7b-ec42-4618-bb11-c75671a80741.png)
 ![mysql install 6](https://user-images.githubusercontent.com/9339576/205648856-7d835a53-335f-4dba-9f79-2cd8fa1e7591.png)
+If any of the downloads fail, just click "Try Again"
 ![mysql install 7](https://user-images.githubusercontent.com/9339576/205648865-2c3d33df-c738-43ca-9190-d48ee5b9cdf1.png)
 ![mysql install 8](https://user-images.githubusercontent.com/9339576/205648879-0fc0da6f-8b85-4948-8ffd-de4e765fd7ea.png)
 ![mysql install 9](https://user-images.githubusercontent.com/9339576/205648895-4038155c-54cd-4df9-8227-f3fd9ae82c0d.png)
