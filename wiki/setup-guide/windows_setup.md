@@ -25,7 +25,7 @@ After installing the IDE, please make sure to add extensions for Flutter in the 
     - A new path to your PATH variable, which should point to the sdk/platform-tools folder of your Android installation
 
 3. Flutter Framework\
-    Install Flutter **2.0.5** using the steps described here: https://flutter.dev/docs/get-started/install, where the **2.0.5** version of Flutter can be found here https://flutter.dev/docs/development/tools/sdk/releases
+    Install Flutter **3.3.8** using the steps described here: https://flutter.dev/docs/get-started/install, where the **3.3.8** version of Flutter can be found here https://flutter.dev/docs/development/tools/sdk/releases
 
 4. Install .Net \
     Install dotnet **6.0** from this link: https://dotnet.microsoft.com/download/dotnet/6.0
