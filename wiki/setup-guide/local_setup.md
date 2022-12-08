@@ -29,10 +29,11 @@ If any of the downloads fail, just click "Try Again"
 1. Go to weekplanner/lib/main.dart
 2. Change `'assets/environments.dev.json'` to `'assets/environments.local.json'` on line 29
 3. Go to web-api/GirafRest/appsettings.Development.json
-4. Change the server variable to `server=localhost`
+4. Change the server variable to `server=localhost` in the `DefaultConnection` key
 
 ## Building the database for the Web-API and running it with sample data
 1. Open command prompt in web-api/GirafRest
+![Command Prompt](https://user-images.githubusercontent.com/9339576/206396781-67c4ec1b-8190-4eb5-afeb-98e3e741f295.png)
 2. Type `dotnet-ef database update`
 3. Type `dotnet run --sample-data`
 
