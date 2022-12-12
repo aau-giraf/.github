@@ -4,8 +4,8 @@ services:
   frontend:
     build:
       context: .
-      dockerfile: ./weekplanner/Dockerfile
-    image: weekplanner
+      dockerfile: ./frontend/Dockerfile
+    image: weekplanner-api_client
     restart: always
   backend:
     build:
