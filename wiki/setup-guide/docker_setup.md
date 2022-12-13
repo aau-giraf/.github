@@ -73,7 +73,8 @@ On linux this can be done through the terminal.
 Go to the emulator system directory, then run your created emulator.
 ```console
 $ cd /home/<user>/Android/Sdk/emulator
-$ ./emulator -avd <emulator-name> # Pixel_C_API_30
+$ ./emulator -list-avds             # List all available avds
+$ ./emulator -avd <emulator-name>   # Pixel_C_API_30
 ```
 After emulator has fully started, set the target device to listen for a TCP/IP connection on port 5555.
 ```console
