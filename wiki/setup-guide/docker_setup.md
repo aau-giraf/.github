@@ -81,6 +81,12 @@ $ adb tcpip 5555
 ```
 
 ## 2. Frontend container
+### Setup for local development
+- Go to `/home/developer/workspace/weekplanner/lib/main.dart`.
+
+- Change `'assets/environments.dev.json'` to `'assets/environments.local.json'` on line 29.
+
+### Connect to host emulator
 In the frontend container, connect to your emulator running on the host machine.
 ```console
 $ adb connect host.docker.internal:5555
