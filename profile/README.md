@@ -16,9 +16,9 @@ The system will be developed continuously and it will hopefully be ready for use
 
 - [Project Architecture](https://github.com/aau-giraf/.github/blob/main/wiki/about/about.md)
 - [GitHub](https://github.com/aau-giraf/.github/blob/main/wiki/about/github.md)
-- [Setup guide](https://github.com/aau-giraf/.github/blob/main/wiki/setup-guide/env_setup.md)
-- [Server info](https://github.com/aau-giraf/.github/blob/main/wiki/server/server_setup.md)
-
+- [Setup guide](https://aau-giraf.github.io/wiki/Getting_Started/setup/)
+- [GIRAF Wiki](https://aau-giraf.github.io/wiki/)
+  
 ## Design guide
 
 The further design of the application should follow the design described in the [General guidelines](https://github.com/aau-giraf/.github/blob/main/wiki/design_guide/general.md), where you will also be able to find the prototypes from the last semester.
