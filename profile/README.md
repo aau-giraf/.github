@@ -1,30 +1,29 @@
 # GIRAF - Graphical Interface Resource for Autistic Folks
 
-This is the GitHub organization hosting the different repositories for the applications in GIRAF.
+This GitHub organization hosts the repositories for the GIRAF applications.
 
-## About the project
+## About the Project
 
-GIRAF is a tablet environment application aimed at autistic children with little or no verbal communication. It can be used for daily schedules, games and education.
+GIRAF is a tablet-based application designed for autistic children with limited or no verbal communication skills. It can be used for daily schedules, games, and educational purposes.
 
-The GIRAF system has been developed by students at Aalborg University as a semester project on the Bsc in Software Engineering. The project was created in 2011, and it currently consists of one application called *Weekplanner*. 
+Developed by students at Aalborg University as a semester project for the BSc in Software Engineering, GIRAF was initiated in 2011. Currently, it consists of one application called "weekplanner".
 
-The project has been created in close cooperation with Børnehaven Birken (Kindergarten), Egebakken (School) and Center for Autisme og ADHD at Aalborg Municipality. 
+The project has been created in close collaboration with Børnehaven Birken (Kindergarten), Egebakken (School), and the Center for Autism and ADHD at Aalborg Municipality.
 
-The system will be developed continuously and it will hopefully be ready for use within the next couple of years.
+Development is ongoing, with the goal of making the system ready for use within the next few years.
 
-## Development documentation
+## Development Documentation
 
-- [Project Architecture](https://github.com/aau-giraf/.github/blob/main/wiki/about/about.md)
-- [GitHub](https://github.com/aau-giraf/.github/blob/main/wiki/about/github.md)
-- [Setup guide](https://aau-giraf.github.io/wiki/Getting_Started/setup/)
 - [GIRAF Wiki](https://aau-giraf.github.io/wiki/)
-  
-## Design guide
+- [Setup Guide](https://aau-giraf.github.io/wiki/Setup/)
+- [GitHub Information](https://github.com/aau-giraf/.github/blob/main/wiki/about/github.md)
 
-The further design of the application should follow the design described in the [General guidelines](https://github.com/aau-giraf/.github/blob/main/wiki/design_guide/general.md), where you will also be able to find the prototypes from the last semester.
+## Design Guide
 
-## Legal documents
+Future development should adhere to the design principles outlined in the [General Guidelines](https://github.com/aau-giraf/.github/blob/main/wiki/design_guide/general.md). This document also includes prototypes from the previous semester.
 
-- [Licenses for GIRAF](https://github.com/aau-giraf/.github/blob/main/wiki/legal/licenses.md)
-- [Privacy policy](https://github.com/aau-giraf/.github/blob/main/wiki/legal/privacy_licenses.md)
-- [Risk assessment](https://github.com/aau-giraf/.github/blob/main/wiki/legal/risk_assessment.md)
+## Legal Documents
+
+- [GIRAF Licenses](https://github.com/aau-giraf/.github/blob/main/wiki/legal/licenses.md)
+- [Privacy Policy](https://github.com/aau-giraf/.github/blob/main/wiki/legal/privacy_licenses.md)
+- [Risk Assessment](https://github.com/aau-giraf/.github/blob/main/wiki/legal/risk_assessment.md)
