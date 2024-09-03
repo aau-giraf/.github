@@ -15,7 +15,7 @@ Development is ongoing, with the goal of making the system ready for use within 
 ## Development Documentation
 
 - [GIRAF Wiki](https://aau-giraf.github.io/wiki/)
-- [Setup Guide](https://aau-giraf.github.io/wiki/Setup/)
+- [Setup Guide](https://aau-giraf.github.io/wiki/Setup/Index/)
 - [GitHub Information](https://github.com/aau-giraf/.github/blob/main/wiki/about/github.md)
 
 ## Design Guide
