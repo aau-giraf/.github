@@ -12,6 +12,44 @@ GIRAF is a multi-disciplinary student project at Aalborg University (AAU) develo
 | giraf-core | Shared domain service (users, orgs, auth) | Django, PostgreSQL | [giraf-core](https://github.com/aau-giraf/giraf-core) |
 | giraf-ai | AI services: image generation & TTS | FastAPI, Python | [giraf-ai](https://github.com/aau-giraf/giraf-ai) |
 
+## Architecture
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    Mobile Apps (Expo / React Native)            │
+│   Weekplanner          Food Planner          VTA               │
+└──────┬──────────────────────┬───────────────────┬──────────────┘
+       │ domain data          │ domain data       │ domain data
+       ▼                      ▼                   ▼
+┌──────────────┐   ┌──────────────┐   ┌──────────────────┐
+│ Weekplanner  │   │ Food Planner │   │ VTA Backend      │
+│ Backend      │   │ Backend      │   │                  │
+│ (.NET 8)     │   │ (planned)    │   │ (.NET + SignalR) │
+│ Activities,  │   │ Meals, Menus │   │ Exercises,       │
+│ Schedules    │   │ Nutrition    │   │ Progress         │
+└──────┬───────┘   └──────┬───────┘   └──────┬───────────┘
+       │                  │                   │
+       │  users, orgs, citizens, pictograms   │
+       ▼                  ▼                   ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                    GIRAF Core API                               │
+│                    (Django + Ninja, Python)                     │
+│                                                                 │
+│  Auth/JWT │ Users │ Orgs │ Citizens │ Grades │ Pictos │ Invites │
+└─────────────────────────┬───────────────────────────────────────┘
+                          │
+                    ┌─────▼─────┐
+                    │  Core DB  │
+                    │ PostgreSQL│
+                    └───────────┘
+
+┌─────────────────────────────────────────────────────────────────┐
+│                    giraf-ai (FastAPI, Python)                   │
+│           Stateless AI services — image generation & TTS       │
+│                    Available to all apps                        │
+└─────────────────────────────────────────────────────────────────┘
+```
+
 ## Get Involved
 
 - Read our [Contributing Guide](../CONTRIBUTING.md) to learn how to contribute
