@@ -10,6 +10,7 @@ GIRAF is a multi-disciplinary student project at Aalborg University (AAU) develo
 | VTA | Visual communication boards for non-verbal children | Flutter, .NET, MySQL | [visual-tangible-artefacts](https://github.com/aau-giraf/visual-tangible-artefacts) |
 | Foodplanner | Meal planning for institutions | Flutter, .NET, PostgreSQL | [foodplanner](https://github.com/aau-giraf/foodplanner) + [foodplanner-api](https://github.com/aau-giraf/foodplanner-api) |
 | giraf-core | Shared domain service (users, orgs, auth) | Django, PostgreSQL | [giraf-core](https://github.com/aau-giraf/giraf-core) |
+| giraf-ai | AI services: image generation & TTS | FastAPI, Python | [giraf-ai](https://github.com/aau-giraf/giraf-ai) |
 
 ## Get Involved
 
