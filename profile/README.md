@@ -19,31 +19,30 @@ GIRAF is a multi-disciplinary student project at Aalborg University (AAU) develo
 │                    Mobile Apps (Expo / React Native)            │
 │   Weekplanner          Food Planner          VTA               │
 └──────┬──────────────────────┬───────────────────┬──────────────┘
-       │ domain data          │ domain data       │ domain data
+       │                      │                   │
        ▼                      ▼                   ▼
 ┌──────────────┐   ┌──────────────┐   ┌──────────────────┐
 │ Weekplanner  │   │ Food Planner │   │ VTA Backend      │
 │ Backend      │   │ Backend      │   │                  │
 │ (.NET 8)     │   │ (planned)    │   │ (.NET + SignalR) │
-│ Activities,  │   │ Meals, Menus │   │ Exercises,       │
-│ Schedules    │   │ Nutrition    │   │ Progress         │
-└──┬───────┬───┘   └──┬───────┬───┘   └──┬───────┬──────┘
-   │       │          │       │          │       │
-   │shared │AI        │shared │AI        │shared │AI
-   │data   │          │data   │          │data   │
-   ▼       ▼          ▼       ▼          ▼       ▼
-┌──────────────────────────┐  ┌──────────────────────────┐
-│    GIRAF Core API        │  │       giraf-ai           │
-│  (Django + Ninja)        │  │      (FastAPI)           │
-│                          │  │                          │
-│ Auth/JWT │ Users │ Orgs  │  │ Image generation │ TTS   │
-│ Citizens │ Grades│ Pictos│  │ Stateless, no DB         │
-└────────────┬─────────────┘  └──────────────────────────┘
-             │
-       ┌─────▼─────┐
-       │  Core DB  │
-       │ PostgreSQL│
-       └───────────┘
+└──────┬───────┘   └──────┬───────┘   └──────┬───────────┘
+       │                  │                   │
+       └──────────────────┼───────────────────┘
+                          │
+              ┌───────────┴───────────┐
+              ▼                       ▼
+┌──────────────────────┐  ┌──────────────────────┐
+│   GIRAF Core API     │  │      giraf-ai        │
+│  (Django + Ninja)    │  │     (FastAPI)         │
+│                      │  │                       │
+│ Users, Orgs, Auth    │  │ Image generation, TTS │
+│ Citizens, Pictograms │  │ Stateless, no DB      │
+└──────────┬───────────┘  └───────────────────────┘
+           │
+     ┌─────▼─────┐
+     │  Core DB  │
+     │ PostgreSQL│
+     └───────────┘
 ```
 
 Both shared services validate Core-issued JWTs — backends call either with the same token.
