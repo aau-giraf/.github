@@ -27,28 +27,26 @@ GIRAF is a multi-disciplinary student project at Aalborg University (AAU) develo
 │ (.NET 8)     │   │ (planned)    │   │ (.NET + SignalR) │
 │ Activities,  │   │ Meals, Menus │   │ Exercises,       │
 │ Schedules    │   │ Nutrition    │   │ Progress         │
-└──────┬───────┘   └──────┬───────┘   └──────┬───────────┘
-       │                  │                   │
-       │  users, orgs, citizens, pictograms   │
-       ▼                  ▼                   ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    GIRAF Core API                               │
-│                    (Django + Ninja, Python)                     │
-│                                                                 │
-│  Auth/JWT │ Users │ Orgs │ Citizens │ Grades │ Pictos │ Invites │
-└─────────────────────────┬───────────────────────────────────────┘
-                          │
-                    ┌─────▼─────┐
-                    │  Core DB  │
-                    │ PostgreSQL│
-                    └───────────┘
-
-┌─────────────────────────────────────────────────────────────────┐
-│                    giraf-ai (FastAPI, Python)                   │
-│           Stateless AI services — image generation & TTS       │
-│                    Available to all apps                        │
-└─────────────────────────────────────────────────────────────────┘
+└──┬───────┬───┘   └──┬───────┬───┘   └──┬───────┬──────┘
+   │       │          │       │          │       │
+   │shared │AI        │shared │AI        │shared │AI
+   │data   │          │data   │          │data   │
+   ▼       ▼          ▼       ▼          ▼       ▼
+┌──────────────────────────┐  ┌──────────────────────────┐
+│    GIRAF Core API        │  │       giraf-ai           │
+│  (Django + Ninja)        │  │      (FastAPI)           │
+│                          │  │                          │
+│ Auth/JWT │ Users │ Orgs  │  │ Image generation │ TTS   │
+│ Citizens │ Grades│ Pictos│  │ Stateless, no DB         │
+└────────────┬─────────────┘  └──────────────────────────┘
+             │
+       ┌─────▼─────┐
+       │  Core DB  │
+       │ PostgreSQL│
+       └───────────┘
 ```
+
+Both shared services validate Core-issued JWTs — backends call either with the same token.
 
 ## Get Involved
 
