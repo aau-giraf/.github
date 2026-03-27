@@ -16,7 +16,7 @@ GIRAF is a multi-disciplinary student project at Aalborg University (AAU) develo
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    Mobile Apps (Expo / React Native)            │
+│                    Mobile Apps (Flutter)            │
 │   Weekplanner          Food Planner          VTA               │
 └──────┬──────────────────────┬───────────────────┬──────────────┘
        │                      │                   │
@@ -24,7 +24,7 @@ GIRAF is a multi-disciplinary student project at Aalborg University (AAU) develo
 ┌──────────────┐   ┌──────────────┐   ┌──────────────────┐
 │ Weekplanner  │   │ Food Planner │   │ VTA Backend      │
 │ Backend      │   │ Backend      │   │                  │
-│ (.NET 8)     │   │ (planned)    │   │ (.NET + SignalR) │
+│ (.NET 10)    │   │              │   │ (.NET + SignalR) │
 └──────┬───────┘   └──────┬───────┘   └──────┬───────────┘
        │                  │                   │
        └──────────────────┼───────────────────┘
