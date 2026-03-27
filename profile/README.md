@@ -15,9 +15,9 @@ GIRAF is a multi-disciplinary student project at Aalborg University (AAU) develo
 ## Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                    Mobile Apps (Flutter)            │
-│   Weekplanner          Food Planner          VTA               │
+┌────────────────────────────────────────────────────────────────┐
+│                    Mobile Apps (Flutter)                       │
+│   Weekplanner          Food Planner            VTA             │
 └──────┬──────────────────────┬───────────────────┬──────────────┘
        │                      │                   │
        ▼                      ▼                   ▼
@@ -25,14 +25,14 @@ GIRAF is a multi-disciplinary student project at Aalborg University (AAU) develo
 │ Weekplanner  │   │ Food Planner │   │ VTA Backend      │
 │ Backend      │   │ Backend      │   │                  │
 │ (.NET 10)    │   │              │   │ (.NET + SignalR) │
-└──────┬───────┘   └──────┬───────┘   └──────┬───────────┘
+└──────┬───────┘   └──────┬───────┘   └───────┬──────────┘
        │                  │                   │
        └──────────────────┼───────────────────┘
                           │
               ┌───────────┴───────────┐
               ▼                       ▼
-┌──────────────────────┐  ┌──────────────────────┐
-│   GIRAF Core API     │  │      giraf-ai        │
+┌──────────────────────┐  ┌───────────────────────┐
+│   GIRAF Core API     │  │      giraf-ai         │
 │  (Django + Ninja)    │  │     (FastAPI)         │
 │                      │  │                       │
 │ Users, Orgs, Auth    │  │ Image generation, TTS │
