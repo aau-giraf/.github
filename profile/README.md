@@ -6,7 +6,7 @@ GIRAF is a multi-disciplinary student project at Aalborg University (AAU) develo
 
 | Application | Description | Tech Stack | Repo Link |
 |---|---|---|---|
-| Weekplanner | Schedule management for daily routines | Expo/React Native, .NET, PostgreSQL | [weekplanner](https://github.com/aau-giraf/weekplanner) |
+| Weekplanner | Schedule management for daily routines | Flutter, .NET, PostgreSQL | [weekplanner](https://github.com/aau-giraf/weekplanner) |
 | VTA | Visual communication boards for non-verbal children | Flutter, .NET, MySQL | [visual-tangible-artefacts](https://github.com/aau-giraf/visual-tangible-artefacts) |
 | Foodplanner | Meal planning for institutions | Flutter, .NET, PostgreSQL | [foodplanner](https://github.com/aau-giraf/foodplanner) + [foodplanner-api](https://github.com/aau-giraf/foodplanner-api) |
 | giraf-core | Shared domain service (users, orgs, auth) | Django, PostgreSQL | [giraf-core](https://github.com/aau-giraf/giraf-core) |
