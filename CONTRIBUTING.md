@@ -22,7 +22,7 @@ Each repository uses slightly different tech stacks
 
 - [giraf-core](https://github.com/aau-giraf/giraf-core/blob/main/CONTRIBUTING.md) — Python/Django
 - [giraf-ai](https://github.com/aau-giraf/giraf-ai/blob/main/CONTRIBUTING.md) — Python
-- [weekplanner](https://github.com/aau-giraf/weekplanner/blob/main/CONTRIBUTING.md) — .NET + Expo/React Native
+- [weekplanner](https://github.com/aau-giraf/weekplanner/blob/main/CONTRIBUTING.md) — .NET + Flutter
 - [visual-tangible-artefacts](https://github.com/aau-giraf/visual-tangible-artefacts/blob/main/CONTRIBUTING.md) — .NET + Flutter
 - [foodplanner](https://github.com/aau-giraf/foodplanner/blob/main/CONTRIBUTING.md) — Flutter
 - [wiki](https://github.com/aau-giraf/wiki/blob/main/CONTRIBUTING.md) — MkDocs documentation
