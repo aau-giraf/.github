@@ -6,10 +6,10 @@ GIRAF is a multi-disciplinary student project at Aalborg University (AAU) develo
 
 | Application | Description | Tech Stack | Repo Link |
 |---|---|---|---|
-| Weekplanner | Schedule management for daily routines | Flutter, .NET, PostgreSQL | [weekplanner](https://github.com/aau-giraf/weekplanner) |
-| VTA | Visual communication boards for non-verbal children | Flutter, .NET, MySQL | [visual-tangible-artefacts](https://github.com/aau-giraf/visual-tangible-artefacts) |
-| Foodplanner | Meal planning for institutions | Flutter, .NET, PostgreSQL | [foodplanner](https://github.com/aau-giraf/foodplanner) + [foodplanner-api](https://github.com/aau-giraf/foodplanner-api) |
-| giraf-core | Shared domain service (users, orgs, auth) | Django, PostgreSQL | [giraf-core](https://github.com/aau-giraf/giraf-core) |
+| Weekplanner | Schedule management for daily routines | Flutter, .NET 10, PostgreSQL | [weekplanner](https://github.com/aau-giraf/weekplanner) |
+| VTA | Visual communication boards for non-verbal children | Flutter, .NET 8 (+ SignalR sync), MySQL, Vue 3 admin | [visual-tangible-artefacts](https://github.com/aau-giraf/visual-tangible-artefacts) |
+| Foodplanner | Meal planning for institutions | Flutter, .NET 8, PostgreSQL, MinIO | [foodplanner](https://github.com/aau-giraf/foodplanner) + [foodplanner-api](https://github.com/aau-giraf/foodplanner-api) |
+| giraf-core | Shared domain service (users, orgs, auth) | Django 5 (Ninja), PostgreSQL | [giraf-core](https://github.com/aau-giraf/giraf-core) |
 | giraf-ai | AI services: image generation & TTS | FastAPI, Python | [giraf-ai](https://github.com/aau-giraf/giraf-ai) |
 
 ## Architecture
@@ -24,7 +24,7 @@ GIRAF is a multi-disciplinary student project at Aalborg University (AAU) develo
 ┌──────────────┐   ┌──────────────┐   ┌──────────────────┐
 │ Weekplanner  │   │ Food Planner │   │ VTA Backend      │
 │ Backend      │   │ Backend      │   │                  │
-│ (.NET 10)    │   │              │   │ (.NET + SignalR) │
+│ (.NET 10)    │   │ (.NET 8)     │   │(.NET 8 + SignalR)│
 └──────┬───────┘   └──────┬───────┘   └───────┬──────────┘
        │                  │                   │
        └──────────────────┼───────────────────┘
